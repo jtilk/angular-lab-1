@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    margin-right: 125px;
+    margin-left: 125px;
+    border-radius: 5px;
+    padding-left: 15px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    justify-items: space-evenly;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.forItems {
+    display: flex;
+    flex-direction: row;
+    background-color: #eee;
+    align-items: center;
+    position: relative;
+    margin: 2px;
+}
+
+.complete-button {
+    color: #ff69b4;
+    border-radius: 5px;
+    border-color: #ff69b4;
+    height: 25px;
+    font-size: 18px;
+    margin-right: 3px;
+}
+
+.delete-button {
+    display: flex;
+    border: none;
+    background-color: none;
+    position: absolute;
+    right: 5px;
+}
+
+.toDoCompleted {
+    text-decoration: line-through;
+}
+
+.add-button {
+    background-color: #ff1493;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #eee;
+}
+
+input {
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+}
